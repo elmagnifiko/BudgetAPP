@@ -1,0 +1,154 @@
+
+.Enter-budget , .Enter-budget input , .Enter-budget button {
+    border: 1.5px green solid !important;
+}
+
+.Enter-budget , .Enter-expense {
+    border-radius: 3px;
+    padding:  12px !important;
+    padding-top:  0 !important;
+    width: 97% !important;
+}
+
+.Enter-budget input , .Enter-expense input {
+    width: 99% !important;
+    margin-top: 10px; 
+    border-radius: 3px;
+    height: 35px;
+    background: #fff;
+}
+
+.Enter-expense , .Enter-expense input , .Enter-expense button{
+    border: 1.5px red solid !important;
+}
+
+
+.Enter-expense button , .Enter-budget button , .Enter-title button {
+    margin-top: 15px;
+    height: 35px;
+    opacity: 80%;
+    border-radius: 3px;
+}
+
+.Enter-expense button {
+    color: red;
+}
+.Enter-budget button {
+    color: green;
+}
+
+.Enter-expense button:hover {
+    background-color: red;
+    color: white;
+}
+.Enter-budget button:hover {
+    background-color: green;
+    color: white;
+}
+
+.Enter-title button:hover {
+    background-color: orange;
+    color: black;
+}
+
+.Enter-title button {
+    color: orange;
+    border: 1.5px orange solid !important;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.Enter-title{
+    height: 60px;
+}
+.Enter-title h3 {
+    font-size: 29px;
+    margin-top: 15px;
+}
+
+.Enter-expense label , .Enter-budget label {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.Return-price-nouns i {
+   margin: auto !important;
+   font-size: 55px;
+   color: rgb(13, 83, 118);
+   margin-left: 6px !important;
+}
+.Return-price-nouns p {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -20px !important;
+    color: green;
+}
+
+.Return-price-nouns .fa-credit-card p {
+    color: red !important;
+}
+
+.Return-detail-title {
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.Return-detail-title i {
+    font-size: 30px;
+   color: rgb(13, 83, 118);
+   margin-left: 60px !important;
+}
+ 
+.Return-detail-title i{
+  margin-bottom: 30px !important;
+  margin-top: 20px;
+}
+.Return-detail-title p {
+    margin-bottom: 0px !important;
+    margin-top: 20px;
+}
+
+.Return-detail-nouns {
+    justify-content: space-between;
+}
+
+.Historyii {
+    opacity: 30%;
+    margin-top: 15px;
+    height: 35px;
+    opacity: 70%;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.message {
+    position: fixed;
+    z-index: 2;
+    width: 400px;
+}
+
+.Return-detail-nouns {
+    display: flex;
+}
+
+.bg-primary , .message {
+    display: none; 
+}
+
+.close {
+    opacity: 30%;
+    margin-top: 15px;
+    height: 35px;
+    opacity: 70%;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.Historique {
+   display: none;
+}
