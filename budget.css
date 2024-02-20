@@ -134,7 +134,7 @@
     display: flex;
 }
 
-.bg-primary , .message {
+ .message {
     display: none; 
 }
 
@@ -149,6 +149,6 @@
     border: 1px black solid;
 }
 
-.Historique {
+.Historique , .btnAJour {
    display: none;
 }
