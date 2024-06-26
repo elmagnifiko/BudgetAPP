@@ -144,7 +144,7 @@ if (localStorage.getItem("itemList")) {
   function showListExpenses() {
     root.innerHTML = "";
     let content = "";
-    for (let [key, item] of itemList.expenses.entries()) {
+    for (let [key, item] of Object.entries(itemList.expenses)) {
       let expenseHTML = `
       <div class="Return-detail-nouns">
           <p class="Return-detail-nouns-own" data-title="${item.title}">${item.title}</p>
